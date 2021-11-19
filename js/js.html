@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			height: 1990px;
+		}
+		header{
+			padding: 90px 0;
+			width: 100%;
+			background: green;
+			position: fixed;
+			top: 0;
+		}
+		.red{background:red;padding: 50px 0;
+
+		}
+	</style>
+</head>
+<body>
+<header><nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="index.html">WELFARE</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu">Menu</span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="causes.html">Causes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="donate.html">Donate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav></header>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+   $(window).scroll(function(){
+   	if($(this).scrollTop()>50)
+   	{
+   		$("header").addClass("red")
+   	}
+   	else{
+   		$("header").removeClass("red")
+   	}
+   })
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,600,700,800&display=swap');
+body{
+	font-family: 'Overpass', sans-serif;
+	margin: 0;
+}
+.banner{
+	background: url(../img/c.jpg) fixed;
+	background-size: cover;
+	position: relative;
+}
+.banner-inner{
+	height: 699px;
+	background: rgba(0,0,0,0.7);
+}
+header{
+	width: 100%;
+    transition:0.3s;
+   	top: 0;
+}
+nav{
+	background-color: transparent;
+	width: 100%;
+}
+.navbar-brand{
+	font-weight: 700;
+	color: #fff;
+}
+.navbar-brand:hover{
+	color: #fff;
+}
+.navbar-collapse{
+	margin-left: 305px;
+}
+.oi-menu{
+	color: #fff;
+	font-size: 20px;
+}
+.nav-item{
+	padding: 8px 15px;
+	font-size: 16.5px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.nav-link{
+	color: #D1D1D1;
+}
+.nav-item.active > a {
+    color: #f86f2d;
+}
+.nav-link:hover{
+	color: #fff;
+}
+.content span{
+	font-size: 60px;
+}
+.content{
+	text-align: center;
+	color: #fff;
+	padding-top: 190px;
+}
+.content a{
+	background-color: white;
+}
+.content .head-btn {
+    color: #222;
+    font-weight: 700;
+    background: #fff;
+    border: 1px solid transparent;
+    border-radius: 20px;
+  	font-size: 14px;
+  	padding: 10px 23px;
+  	margin-top: 4px;
+}
+.content .head-btn:hover{
+	background-image: linear-gradient(to right, red , yellow);
+	color: #fff;
+}
+.welcome-area{
+  	padding: 120px 0px;
+}
+.welcome-area .text-cont h3{
+	font-weight: 600;
+  	font-size: 35px;
+  	padding-bottom: 10px;
+}
+.text-cont p{
+	color: #777;
+  	font-family: "Poppins",sans-serif;
+  	font-size: 16px;
+}
+.text-cont h5{
+	font-weight: 600;
+	color: #545454;
+}
+.text-cont .features{
+	list-style: none;
+}
+.text-cont .features li{
+	color: #777;
+	line-height: 30px;
+	font-size: 16px;
+}
+.features li::before {
+  content: "•"; 
+  padding-right: 8px;
+  color:#000; 
+}
+.img-cont .box{
+	height: 100px;
+	position: absolute;
+	width: 100px;
+	background: #179fb7;
+	right: 6px;
+	top: -8px;
+	z-index: -1;
+}
+.clients-area{
+	background-color: #f9f9ff;
+	padding: 120px 0; 
+}
+.clients-area .section-title h3 {
+    font-size: 33px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.section-title h3 span {
+    color: #179fb7;
+}
+ .section-title p{
+ 	padding-top: 11px;
+ 	padding-bottom: 30px;
+	color: #777;
+	font-family: "Poppins",sans-serif;
+	font-size: 14px;
+}
+.clients-area .box1{
+	width: 710px;
+	height: 200px;
+	background-color: #fff;
+	border: 1px solid #c8ccc7b0;
+	padding: 30px;
+}
+.clients-area .box1 p{
+	font-style: italic;
+	font-size: 19px;
+	text-align: center;
+}
+.clients-area .box1 h5{
+	color: #179fb7;
+	text-align: center;
+	padding-top: 20px;
+}
+.clients-area .box1 h6{
+	color: #545454;
+	font-size: 14px;
+}
+.team-area{
+	padding: 120px 0px;
+}
+.team-area .section-title h3 {
+    font-size: 33px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.team-area .section-title h3 span {
+    color: #179fb7;
+}
+.team-area .section-title p{
+ 	padding-top: 11px;
+ 	padding-bottom: 30px;
+	color: #777;
+	font-family: "Poppins",sans-serif;
+	font-size: 14px;
+}
+.team-area .item {
+    overflow: hidden;
+    padding: 15px 0px;
+}
+.team-area .item h5 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-top: 30px;
+}
+.team-area .item h6 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #777;
+}
+.image{
+	transition: 0.3s;
+}
+.image:hover{
+transform: translateY(10px);
+}
+#donate{
+  background: url(../img/bg_4.jpg) fixed;
+  background-size: cover;
+}
+.banner2{
+  height: 800px;
+  background: rgba(10,20,10,0.93);
+}
+#donate .container{
+  color: #fff;
+  padding:96px 0;
+}
+.banner2 .header-text{
+  margin-left: 600px;
+}
+.banner2 .header-text h3{
+ font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+.banner2 .header-text p{
+  color: #777;
+  font-size: 14px;
+  font-family: "Poppins",sans-serif;
+}
+.banner2 .donate-area{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.banner2 .single-info{
+  margin-bottom: 30px;
+}
+.banner2 .single-info h4{
+  font-weight: 600;
+  font-size: 18px;
+}
+.banner2 .single-info p{
+  color: #777;
+  font-size: 14px;
+  font-family: "Poppins",sans-serif;
+}
+.form .form-control {
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    background: transparent !important;
+}
+.form .head-btn{
+    color: #222;
+    font-weight: 700;
+    background: #fff;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 19px;
+    margin-top: 4px;
+}
+.form .head-btn:hover{
+  background-image: linear-gradient(to right, red , yellow);
+  color: #fff;
+  border-color: #000;
+  border:1px solid #777;
+}
+#footer{
+  background-color: #fff;
+  margin:0px;
+  padding: 100px 0;
+}
+footer{
+  color: #222;
+  text-align: center;
+}
+footer .footer-menu{
+  list-style: none;
+  color: black;
+}
+footer .footer-menu li{
+  display: inline;
+  padding: 20px;
+}
+footer .footer-menu li a{
+  color: black;
+  text-decoration: none;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+footer .footer-social a i{
+  color: #ccc;
+}
+footer .footer-social a{
+  padding: 15px;
+}
+footer .footer-social{
+  margin-left: 480px;
+  padding:15px 0;
+}
+footer p{
+  margin-left: 320px;
+  font-size: 14px;
+  margin-top: 16px;
+}
+footer p i{
+  color: red;
+}
+footer p span{
+  color: red;
+}
+.animatable {
+  
+  /* initially hide animatable objects */
+  visibility: hidden;
+  
+  /* initially pause animatable objects their animations */
+  -webkit-animation-play-state: paused;   
+  -moz-animation-play-state: paused;     
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;   
+  animation-play-state: paused; 
+}
+
+/* show objects being animated */
+.animated {
+  visibility: visible;
+  
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
+  -o-animation-play-state: running;
+  animation-play-state: running;
+}
+ @-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+  } 100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -o-transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animated.animationDelay{
+  animation-delay:.4s;
+  -webkit-animation-delay:.4s;
+}
+.animated.animationDelayMed{
+  animation-delay:1.2s;
+  -webkit-animation-delay:1.2s;
+}
+.animated.animationDelayLong{
+  animation-delay:1.6s;
+  -webkit-animation-delay:1.6s;
+}
+.animated.fadeBgColor {
+  -webkit-animation-name: fadeBgColor;
+  -moz-animation-name: fadeBgColor;
+  -o-animation-name: fadeBgColor;
+  animation-name: fadeBgColor;
+}
+.animated.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+  -o-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
