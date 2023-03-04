@@ -1,4 +1,4 @@
-# NGO
+# NGO website
 Used languages: HTML, CSS, Jquery
 
 ![image](https://user-images.githubusercontent.com/63779920/222914370-dc2a4338-3478-44db-9586-55aaa5245160.png)
